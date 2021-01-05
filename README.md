@@ -11,9 +11,8 @@ Jenkins Library Structure <br>
 
 **resources:** All the non-groovy files required for your ur pipelines can be managed in this folder. One such example is, you might need a common JSON template to make an API call during the build. This JSON template can be stored in the resources folder and called can be called in the shared library using the libraryResource function.
 
----
 
 For more details:
 
-1. https://devopscube.com/jenkins-shared-library-tutorial/#:~:text=Jenkins%20Shared%20library%20is%20the,with%20the%20common%20programming%20Library.
-2. For creating our own library follow this article: https://devopscube.com/create-jenkins-shared-library/
+1. Introduction to Jenkins Library: https://devopscube.com/jenkins-shared-library-tutorial/#:~:text=Jenkins%20Shared%20library%20is%20the,with%20the%20common%20programming%20Library.
+2. For creating your own library, follow this article: https://devopscube.com/create-jenkins-shared-library/
