@@ -1,11 +1,9 @@
 # jenkins-library
 
----
-
-Jenkins Library Structure
-|____ vars
-|____ src
-|____ resources
+Jenkins Library Structure <br>
+|____ vars <br>
+|____ src <br>
+|____ resources <br>
 
 **vars:** This directory holds all the global shared library code that can be called from a pipeline. It has all the library files with a .groovy extension. It also supports .txt files for the documentation of shared library code. For example, if you have a file named maven-build.groovy, you can have a help file named maven-groovy.txt. In this file, you can write the respective shared library function help documentation in markdown format.  The help file can be viewed from <your-jenkins-url>/pipeline-syntax/globals page. 
 
